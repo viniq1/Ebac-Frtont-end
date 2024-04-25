@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    border: none;
+    padding: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+    font-weight: bold;
+}
+
+header li  {
+    display: inline;
+    border-style:outset;
+    margin: 5px;
+    padding: 5px;
+    padding-right: none;
+    padding-left: none;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-color: gray;
+}
+
+header li a{
+    color:#f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.creation-date {
+    font-style: italic;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px; 
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    color: #fff;
+    border-style: outset;
+    padding: 4px;
+    display: inline-block;
+    font-size: 11px;
+    border-color: #2f3640;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+#esportes {
+    background-color: rgba(144,238,144,0.2);
+}
+
+#esportes .articles article a {
+    background-color: rgba(46,139,87,0.80);
+    color: white;
+}
+
+#economia {
+    background-color: rgba(240,230,140,0.2);
+}
+
+#economia .articles article a{
+    background-color: rgba(255,215,0,0.8);
+    color: black;
+}
+
+#entretenimento {
+    background-color: rgba(192,192,192,0.2);
+}
+
+#entretenimento .articles article a {
+    background-color: rgba(128,128,128,0.8);
+}
+
+#tecnologia {
+    background-color: rgba(72,209,204,0.2);
+}
+
+#tecnologia .articles article a {
+    background-color: rgba(0,128,128,0.8);
+}
+
+footer {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+    font-weight: bold;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    border-style: outset;
+    padding: 4px;
+    display: inline-block;
+    font-size: 14px;
+    border-color: #2f3640;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
