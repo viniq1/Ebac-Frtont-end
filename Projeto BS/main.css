@@ -48,7 +48,7 @@ header h1 {
     font-style: normal;
 }
 
-#categorias, #imoveis {
+#categorias, #novidades {
     text-align: center;
     align-items: center;
     padding-top: 100px;
@@ -56,6 +56,10 @@ header h1 {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+}
+
+#Ofertas {
+    margin-bottom: 20px;
 }
 
 .row {
@@ -89,4 +93,10 @@ header h1 {
 .carousel-item img {
     height: 600px;
     object-fit: cover
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.50);
+    font-size: 10px;
 }
