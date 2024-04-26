@@ -1,185 +1,165 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinicius Quadros</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <title>Luxo - Style</title>
 </head>
+
+
 <body>
     <header>
-        <div class="header-container">
-            <div>
-                <a href="#">
-                    <img src="image/logo-white.png" alt="Logo da loja">
-                </a>
-            </div>
-            <div class="links">
-                <img src="image/Menu-white.png" alt="Menu">
-                <a href="#sobre" id="link-sobre">Sobre</a>
-                <a href="#produtos">Produtos</a>
+        <div class="navbar navbar-expand-lg">    
+            <div class="container">
+                <img src="image/coroa.png" alt="Icone Coroa">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <img src="image/diamante.png" alt="Menu">
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item ">
+                            <a href="#titulo" class="nav-link">
+                                Início
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#categorias" class="nav-link">
+                                Categorias
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#imoveis" class="nav-link">
+                                Imóveis
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#brand" class="nav-link">
+                                Brand
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
+    <div class="container" id="pagina-inicial">
+        <div id="titulo">
+            <h1>Dress better</h1>
+            <h3>Feel better.</h2>
+        </div>
+
+        <div id="categorias">
+            <h2>Categorias</h1>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="image/woman-luxury.jpg" id="card-img"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Mulheres</h4>
+                        <a href="#" class="btn btn-dark">Acessar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="image/man-luxury.jpg" id="card-img">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Homens</h4>
+                        <a href="#" class="btn btn-dark">Acessar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="image/acessories.jpg" id="card-img"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Acessórios</h4>
+                        <a href="#" class="btn btn-dark">Acessar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="image/lifestyle.jpg" id="card-img"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Lifestyle</h4>
+                        <a href="#" class="btn btn-dark">Acessar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
-        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div id="imoveis">
+            <h2>Imóveis</h1>
+        </div>
+        <div id="carousel-inicio" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div data-bs-interval="3000" class="carousel-item active">
-                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/06/22/08/24/emotions-3490223_1280.jpg">
+                    <img class="d-block w-100" src="image/travel-bora-bora.jpg">
                     <div class="carousel-caption">
                         <h2>
-                            Pescaria clandestina
+                            Bungalos paradisíacos
                         </h2>
                     </div>
                 </div>
                 <div data-bs-interval="3000" class="carousel-item">
-                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/06/06/23/57/birds-2378923_1280.jpg">
+                    <img class="d-block w-100" src="image/travel-grece.jpg">
                     <div class="carousel-caption">
                         <h2>
-                            Pomba da paz
+                            Montanhas da Grécia
                         </h2>
                     </div>
                 </div>
                 <div data-bs-interval="3000" class="carousel-item">
-                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/04/18/19/14/monkey-8704855_1280.jpg">
+                    <img class="d-block w-100" src="image/mobília.jpg">
                     <div class="carousel-caption">
                         <h2>
-                            Mico leão cinza
+                            Vintage
+                        </h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="image/luxury-home.jpg">
+                    <div class="carousel-caption">
+                        <h2>
+                            Casas luxuosas
+                        </h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="image/palace.jpg">
+                    <div class="carousel-caption">
+                        <h2>
+                            Espaços incríveis
                         </h2>
                     </div>
                 </div>
             </div>
-            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <button data-bs-target="#carousel-inicio" data-bs-slide="prev" class="carousel-control-prev" type="button">
                 <span class="carousel-control-prev-icon"></span>
             </button>
-            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <button data-bs-target="#carousel-inicio" data-bs-slide="next" class="carousel-control-next" type="button">
                 <span class="carousel-control-next-icon"></span>
             </button>
             <div class="carousel-indicators">
-                <button data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active" type="button"></button>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide-to="1" type="button"></button>
-                <button data-bs-target="#carousel-exemplo" data-bs-slide-to="2" type="button"></button>
+                <button data-bs-target="#carousel-inicio" data-bs-slide-to="0" class="active" type="button"></button>
+                <button data-bs-target="#carousel-inicio" data-bs-slide-to="1" type="button"></button>
+                <button data-bs-target="#carousel-inicio" data-bs-slide-to="2" type="button"></button>
+                <button data-bs-target="#carousel-inicio" data-bs-slide-to="3" type="button"></button>
+                <button data-bs-target="#carousel-inicio" data-bs-slide-to="4" type="button"></button>
             </div>
         </div>
     </div>
-    
-    <div id="titulo">
-        <h1>Press start.</h1>
-        <h2>Have fun.</h2>
-    </div>
-    
-    <section id="container-sobre">
-        <div id="sobre">
-            <img src="image/loja-fachada.jpeg" alt="Fachada da loja">
-            <div>
-                <h1>Nossa história:</h1>
-                <p><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad corrupti illum, atque voluptate quos recusandae. Voluptatum beatae laudantium ipsum rerum? Tempore ab molestias quaerat debitis ducimus quasi culpa, reiciendis voluptatum?</p>
-                <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae saepe laborum mollitia, dolorum facere quidem aperiam non amet soluta! Ipsum, iusto ut voluptate officia odit ipsa dolor fugit perferendis nemo.</p>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="produtos" id="produtos">
-            <div class="card-produto">
-                <ul>
-                    <li>
-                        <div>
-                            <img src="image/notebook.jpg" alt="Notebooks">
-                            <h3>Notebooks</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="image/smartphone.jpg" alt="smartphone">
-                            <h3>Smartphone</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="image/game.jfif" alt="console portátil">
-                            <h3>Consoles portáteis</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="image/smartphone.jpg" alt="smartphone">
-                            <h3>Smartphone  </h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="image/software.png" alt="Softwares">
-                            <h3>Software</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="image/pc.webp" alt="Desktops">
-                            <h3>Desktops</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="image/cabos.webp" alt="Cabos e acessórios">
-                            <h3>Cabos</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="image/perifericos.webp" alt="Periféricos">
-                            <h3>Periféricos</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In cum dolorem nulla eaque consectetur earum consequatur fugiat.</p>
-                        </div>
-                        <div id="botoes">
-                            <button type="button">+ Carrinho</button>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
-    <footer>
-        <div class="header-container">
-            &copy; - Site sem fins comerciais - todos os direitos reservados.
-        </div>
-    </footer>
-
 
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
