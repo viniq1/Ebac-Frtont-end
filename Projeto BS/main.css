@@ -38,10 +38,7 @@ header h1 {
 
 
 #titulo {
-    text-align: center;
     padding: 400px 0;
-    justify-content: center;
-    align-items: center;
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -49,8 +46,6 @@ header h1 {
 }
 
 #categorias, #novidades {
-    text-align: center;
-    align-items: center;
     padding-top: 100px;
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
