@@ -39,8 +39,8 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#brand" class="nav-link">
-                                Brand
+                            <a href="#contato" class="nav-link">
+                                Contato
                             </a>
                         </li>
                     </ul>
@@ -161,9 +161,48 @@
         </div>
     </div>
 
+    <div class="container" id="contato">
+        <div class="row">
+            <div class="col">
+                <h2>Entre em contato</h2>
+                <form>
+                    <label class="form-label" for="nome">Seu nome:</label>
+                    <input class="form-control" type="text" id="nome">
+
+                    <label class="form-label" for="telefone">Seu telefone:</label>
+                    <input class="form-control" type="tel" id="telefone">
+                    
+                    <label for="email" class="form-label">Seu e-mail:</label>
+                    <input type="email" class="form-control" id="email">
+
+                    <label for="mensagem" class="form-label">Sua mensagem:</label>
+                    <textarea class="form-control" id="mensagem"></textarea>
+
+                    <div class="form-check form-switch">
+                        <input type="checkbox" class="form-check-input" id="aceito-termos">
+                        <label for="aceito-termos" class="form-check-label">Li e concordo com os termos</label>
+                    </div>
+                    <button class="btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="container">
-            <h3>&copy;Luxury Store - Todos os direitos reservados</h3>
+            <div class="row mb-0 p-4">
+                <div class="col-6" id="rodape">
+                    <p class="mb-0">&copy;Luxury Store - Todos os direitos reservados</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end" id="rodape">
+                    <img src="image/Icons/bootstrap.png" alt="Bootstrap">
+                    <img src="image/Icons/html5.png" alt="HTML5">
+                    <img src="image/Icons/css-3.png" alt="CSS">
+                    <img src="image/Icons/JS.png" alt="JavaScript">
+                </div>
+            </div>
+            
+
         </div>
     </footer>
 
